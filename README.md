@@ -5,7 +5,7 @@
 ## ポイント
 - タスクが`gulp.task(タスク名,function(){})`ではなく、ただの関数になった
 - `gulp.start`は削除された
-- `gulp-watch`は標準となったのでインストール・requireをしない
+- `gulp-watch`は標準となったのでインストール&requireをしない
 ## つまづきポイント
 - gulp-cli のバージョンをあげる
 - 4に限らないがwatchするsassファイルのパスとcssを書き出す場所を正しく指定する
