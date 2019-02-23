@@ -1,0 +1,21 @@
+{
+  "name": "gulp4",
+  "version": "1.0.0",
+  "description": "```JS\r // 3\r var gulp = require('gulp'); // 本体\r var sass = require('gulp-sass'); // sass\r var watch = require('gulp-watch'); // watch\r var notify = require('gulp-notify'); // エラー通知\r var plumber = require('gulp-plumber'); // エラー後復帰\r var sassLint = require('gulp-sass-lint'); // sass-lint\r var postcss = require('gulp-postcss'); // postcss\r var autoprefixer = require('autoprefixer'); // autoprefixer（postcss）\r var mqpacker = require('css-mqpacker'); // メディアクエリ（postcss）",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.4.8",
+    "css-mqpacker": "^7.0.0",
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
